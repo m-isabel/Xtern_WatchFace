@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:paddingBottom="40dp"
         >
 
         <ImageView
@@ -30,15 +31,15 @@
             android:textColor="#FFFFFF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="00:00"/>
-
+            android:text="00:00"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"/>
         <TextView
             android:id="@+id/watch_battery"
             android:textSize="13sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
-            android:layout_alignRight="@id/watch_time"
             android:layout_below="@+id/watch_time"
             android:text="100%"
         />
